@@ -6,7 +6,7 @@ I would run character checks like games made by bethesda
 To try and avoid micro solutions like simply using variables when the macro solutions are more universal and teach more about
 structure. Classes and switches or expressions come to mind and their implementation in a broader sense of programming.
 
-[Software Demo Video]([http://youtube.link.goes.here](https://youtu.be/_YvTnsCR3kE))
+[Software Demo Video](https://youtu.be/_YvTnsCR3kE)
 
 # Development Environment
 
