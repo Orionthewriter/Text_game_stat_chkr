@@ -1,0 +1,3 @@
+﻿  Text_check.cpp
+C:\Users\close\source\repos\Text_check\Text_check\Text_check.cpp(134,20): warning C4553: '==': result of expression not used; did you intend '='?
+  Text_check.vcxproj -> C:\Users\close\source\repos\Text_check\x64\Debug\Text_check.exe
