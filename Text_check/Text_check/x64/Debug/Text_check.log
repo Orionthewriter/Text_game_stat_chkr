@@ -1,3 +1,3 @@
-﻿  Text_check.cpp
-C:\Users\close\source\repos\Text_check\Text_check\Text_check.cpp(134,20): warning C4553: '==': result of expression not used; did you intend '='?
-  Text_check.vcxproj -> C:\Users\close\source\repos\Text_check\x64\Debug\Text_check.exe
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppClean.targets(77,5): warning : Access to the path 'c:\users\close\onedrive\documents\github\text_game_stat_chkr\text_check\x64\debug\text_check.exe' is denied.
+  Text_check.cpp
+LINK : fatal error LNK1104: cannot open file 'C:\Users\close\OneDrive\Documents\GitHub\Text_game_stat_chkr\Text_check\x64\Debug\Text_check.exe'

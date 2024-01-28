@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-#include <list>
+
 
 
 class Character {
@@ -16,7 +16,8 @@ private:
     int height;
     // basic layout for unalterable data types.
 public:
-    Character(string, int, int, int, int, int) {
+    Character(string name, int charisma, int strength, int brains, int luck, int height) 
+        :name(name),charisma(charisma),strength(strength),brains(brains),luck(luck),height(height) {
     
     }
     int getStats() {
@@ -84,13 +85,13 @@ int main()
     cout << "\nOn a scale of 1-10 how tall are you?";
     cin >> height;
     Character Neo(name, charisma, strength, brains, luck, height);
-    Neo.print_stats();
     cout << "\nYou are sitting at a bar when you are approached by a man who claims to be in the legion!";
     cout << "\nHe asks you about your drink and whips out a gun!";
     cout << "\nHow do you approach this situation?";
     while (choice != 0); {
         cout << "\n1. fight and die";
         cout << "\n2. throw your money at him and hope for the best.";
+        // basic options
         if (Neo.getCharisma() >= 6) {
             cout << "\n3. Silver tongue your way out of the the fight by insulting a common enemy.";
         }
@@ -105,6 +106,8 @@ int main()
         if (Neo.getHeight() >= 6) {
             cout << "\n7. You look around and realize this legionare is in fact a short king compared to your hulking stature."; 
         }
+        // skill check options.
+        // If class skill is higher it will display.
         cout << "\n0. ragequit";
         cin >> choice;
         switch (choice) {
@@ -136,7 +139,7 @@ int main()
             cout << "You offer him a new perspective and heave him upon your shoulders like man to wee man. You leave the bar and show him what life is like from up here.";
             break;
         case 0:
-            choice == 0;
+            choice = 0;
             break;
         }
     }
