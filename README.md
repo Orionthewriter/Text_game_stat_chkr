@@ -16,8 +16,8 @@ I used iostream and string which are basic libraries for interpreting print and 
 
 # Useful Websites
 
-- [W3]([http://url.link.goes.here](https://www.w3schools.com/cpp/cpp_switch.asp))
-- [cplusplus.com]([http://url.link.goes.here](https://cplusplus.com/forum/beginner/107842/))
+- [W3]((https://www.w3schools.com/cpp/cpp_switch.asp))
+- [cplusplus.com]((https://cplusplus.com/forum/beginner/107842/))
 - [Coding Champ](https://coding-champ.com/tutorials/c-plus-plus/getters-and-setters)
 
 # Future Work
