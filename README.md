@@ -1,9 +1,9 @@
 # Overview
 
-I wanted to create a text game using a language that I was but fledgeling in. I decided that to amp up the coding difficulty
-I would run character checks like games made by bethesda
+I wanted to create a text game using a language that I was ignorant of. I decided that to amp up the coding difficulty
+I would run character checks like games created by bethesda.
 
-To try and avoid micro solutions like simply using variables when the macro solutions are more universal and teach more about
+My intention was to try and avoid micro solutions like simply using variables when the macro solutions are more universal and teach more about
 structure. Classes and switches or expressions come to mind and their implementation in a broader sense of programming.
 
 [Software Demo Video](https://youtu.be/_YvTnsCR3kE)
